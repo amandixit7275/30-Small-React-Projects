@@ -1,6 +1,7 @@
 import "./app.css";
 import Accordian from "./Components/Accordian/Accordian";
 import ImageSlider from "./Components/Image-Slider/ImageSlider";
+import LightDarkMode from "./Components/Light Dark Mode/LightDarkMode";
 import LoadMoreData from "./Components/Load More Data/LoadMoreData";
 import QrCode from "./Components/QrCodeGenerator/QrCode";
 import RandomColor from "./Components/Radom Color Generator/RandomColor";
@@ -18,7 +19,8 @@ export function App() {
       {/* <ImageSlider url={"https://picsum.photos/v2/"} page={"1"} limit={10} /> */}
       {/* <LoadMoreData /> */}
       {/* <TreeView menus={menus} /> */}
-      <QrCode />
+      {/* <QrCode /> */}
+      <LightDarkMode />
     </>
   );
 }
