@@ -6,6 +6,7 @@ import LoadMoreData from "./Components/Load More Data/LoadMoreData";
 import QrCode from "./Components/QrCodeGenerator/QrCode";
 import RandomColor from "./Components/Radom Color Generator/RandomColor";
 import RandomColorGenerator from "./Components/Radom Color Generator/RandomColor";
+import ScrollIndicator from "./Components/scroll-indicator/ScrollIndicator";
 import StarRating from "./Components/Star-Raing/StarRating";
 import menus from "./Components/tree-view/data";
 import TreeView from "./Components/tree-view/TreeView";
@@ -20,7 +21,8 @@ export function App() {
       {/* <LoadMoreData /> */}
       {/* <TreeView menus={menus} /> */}
       {/* <QrCode /> */}
-      <LightDarkMode />
+      {/* <LightDarkMode /> */}
+      <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
     </>
   );
 }
