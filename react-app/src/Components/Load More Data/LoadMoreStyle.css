@@ -19,8 +19,9 @@
   width: 200px;
   height: 200px;
 }
-.button {
+.buttonClick {
   display: flex;
-
+  align-items: center;
+  cursor: pointer;
   justify-content: center;
 }

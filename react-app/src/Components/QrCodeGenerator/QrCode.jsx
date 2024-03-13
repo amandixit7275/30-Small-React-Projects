@@ -31,7 +31,7 @@ export default function QrCode() {
         onKeyDown={handleEnterPress}
       />
       <button
-        className="button"
+        className="QRbutton"
         disabled={input && input.trim() !== "" ? false : true}
         onClick={() => handleGenerateQrCode()}
       >

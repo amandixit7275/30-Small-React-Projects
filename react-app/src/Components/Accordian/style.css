@@ -1,4 +1,4 @@
-.wrapper {
+/* .wrapper {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -6,10 +6,20 @@
   justify-content: center;
   height: 100vh;
   width: 100vw;
+  padding: 90px, 30px;
+} */
+.wrapper {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .wrapper button {
-  padding: 10x 20px;
+  padding: 20x 30px;
   background: black;
   color: white;
   font-weight: bold;
@@ -23,7 +33,7 @@
 .item {
   background: black;
   display: flex;
-  padding: 10px 20px;
+  padding: 30px 40px;
   color: white;
 }
 .title {

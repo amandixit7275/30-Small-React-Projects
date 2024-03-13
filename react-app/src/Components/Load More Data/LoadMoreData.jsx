@@ -1,6 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import "./style.css";
+import "./LoadMoreStyle.css";
 
 export default function LoadMoreData() {
   const [products, setProducts] = useState([]);
@@ -54,11 +54,15 @@ export default function LoadMoreData() {
           : null}
       </div>
       <div className="button">
-        <button disabled={disabled} onClick={() => setCount(count + 1)}>
+        <button
+          id="buttonClick"
+          disabled={disabled}
+          onClick={() => setCount(count + 1)}
+        >
           Load More Data
         </button>
       </div>
-      {disabled && <h3>You have reached the maximum limit</h3>}
+      {disabled && <h3>You have reached the maximum limit </h3>}
     </div>
   );
 }
