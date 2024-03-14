@@ -4,6 +4,8 @@ import Modal from "./Components/custom-modal-popup/Modal";
 import ModalTest from "./Components/custom-modal-popup/ModalTest";
 import Tabs from "./Components/custom-tabs/Tabs";
 import TabTest from "./Components/custom-tabs/Tabtest";
+import FeatureFlagGlobalState from "./Components/Feature Flag/Context/Context";
+import FeatureFlag from "./Components/Feature Flag/Context/FeatureFlag";
 import GithubProfileFinder from "./Components/Github-Profile-Finder/GithubProfileFinder";
 
 import ImageSlider from "./Components/Image-Slider/ImageSlider";
@@ -14,6 +16,7 @@ import RandomColor from "./Components/Radom Color Generator/RandomColor";
 import RandomColorGenerator from "./Components/Radom Color Generator/RandomColor";
 import ScrollIndicator from "./Components/scroll-indicator/ScrollIndicator";
 import StarRating from "./Components/Star-Raing/StarRating";
+import TicTacToe from "./Components/Tic-Tac-Toe/TicTacToe";
 import menus from "./Components/tree-view/data";
 import TreeView from "./Components/tree-view/TreeView";
 
@@ -43,7 +46,11 @@ export function App() {
         <TreeView menus={menus} /> */}
 
         {/* <ModalTest /> */}
-        <GithubProfileFinder />
+        {/* <GithubProfileFinder /> */}
+        {/* <TicTacToe /> */}
+        <FeatureFlagGlobalState>
+          <FeatureFlag />
+        </FeatureFlagGlobalState>
 
         {/* <h2>
           And during this time you were also witnessing the 9th Project i.e,
