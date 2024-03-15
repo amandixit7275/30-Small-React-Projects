@@ -44,14 +44,12 @@ export function App() {
         <Accordian />
         <h2 style={styleObj}>Practice Project No 8 : Tree View </h2>
         <TreeView menus={menus} /> */}
-
         {/* <ModalTest /> */}
         {/* <GithubProfileFinder /> */}
         {/* <TicTacToe /> */}
         <FeatureFlagGlobalState>
           <FeatureFlag />
         </FeatureFlagGlobalState>
-
         {/* <h2>
           And during this time you were also witnessing the 9th Project i.e,
           Custom Scroll Indicator: see upside of the screen 🤩
@@ -60,6 +58,7 @@ export function App() {
           and yes Approx 30+ Mini React Practice projects are also about to come
           , STAY TUNED
         </h1> */}
+        'work done'
       </div>
     </>
   );
