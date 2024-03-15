@@ -14,7 +14,6 @@ export default function LightDarkMode() {
       <div className="container">
         <h2>Light Dark Mode</h2>
         <button onClick={handleToggleTheme}>Change Theme</button>
-        <h2>handle click functionality</h2>
       </div>
     </div>
   );
