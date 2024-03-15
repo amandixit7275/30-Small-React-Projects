@@ -58,7 +58,6 @@ export function App() {
           and yes Approx 30+ Mini React Practice projects are also about to come
           , STAY TUNED
         </h1> */}
-        'work done'
       </div>
     </>
   );
